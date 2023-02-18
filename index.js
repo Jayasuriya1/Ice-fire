@@ -32,7 +32,7 @@ async function api(){
     for(var i in book){
     var responce2 = await fetch(book[i].books[0])
     bookDetail = await responce2.json()
-    console.log(bookDetail)
+    // console.log(bookDetail)
     
     // console.log(bookDetail.name)
     // console.log(bookDetail.isbn)
@@ -44,7 +44,7 @@ async function api(){
     var subDivEle = document.createElement('div')
     subDivEle.setAttribute('class','subDiv')
     subDivEle.classList.add('col-sm-12')
-    subDivEle.classList.add('col-md-5')
+    subDivEle.classList.add('col-md-12')
     subDivEle.classList.add('col-xl-5')
     subDivEle.classList.add('col-xxl-3')
 
