@@ -25,7 +25,7 @@ rowDiv.style.justifyContent='center'
 
 async function api(){
    try{
-    var responce = await fetch( "https://www.anapioficeandfire.com/api/characters?page=1&pageSize=4")
+    var responce = await fetch( "https://www.anapioficeandfire.com/api/characters?page=1&pageSize=15")
     book = await responce.json()
     console.log(book)
     
